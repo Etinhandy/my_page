@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.nav-image {
+  height: 5rem;
+}
+.field {
+  background-image: url(../images/background2.jpg);
+  background-position: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 40vh;
+}
+.image-back {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-image: url(../images/background.jpg);
+}
+
+.abi-us {
+  height: 40vh;
+}
+
+.icon {
+  height: 2rem;
+}
+
+.hello {
+  height: 1.6rem !important;
+  width: 1.4rem;
+  padding: 4px;
+}
+/* .hap {
+  height: \\\\0vh !important;
+} */
